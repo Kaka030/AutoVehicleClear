@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cLPj01IfbuI=",
+  "success": true,
+  "projectFilePath": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\87329\\.nuget\\packages\\restoremonarchy.rocketredist\\3.24.4\\restoremonarchy.rocketredist.3.24.4.nupkg.sha512",
+    "C:\\Users\\87329\\.nuget\\packages\\restoremonarchy.unturnedredist\\3.24.4\\restoremonarchy.unturnedredist.3.24.4.nupkg.sha512"
+  ],
+  "logs": []
+}

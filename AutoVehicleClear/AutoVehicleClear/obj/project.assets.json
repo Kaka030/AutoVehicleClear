@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "RestoreMonarchy.RocketRedist/3.24.4": {
+        "type": "package",
+        "dependencies": {
+          "RestoreMonarchy.UnturnedRedist": "3.24.4"
+        },
+        "compile": {
+          "lib/net48/Rocket.API.dll": {},
+          "lib/net48/Rocket.Core.dll": {},
+          "lib/net48/Rocket.Unturned.dll": {}
+        },
+        "runtime": {
+          "lib/net48/_._": {}
+        }
+      },
+      "RestoreMonarchy.UnturnedRedist/3.24.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Assembly-CSharp.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Newtonsoft.Json.dll": {},
+          "lib/net48/SDG.NetTransport.dll": {},
+          "lib/net48/UnityEngine.CoreModule.dll": {},
+          "lib/net48/UnityEngine.PhysicsModule.dll": {},
+          "lib/net48/UnityEngine.dll": {},
+          "lib/net48/UnityEx.dll": {},
+          "lib/net48/UnturnedDat.dll": {},
+          "lib/net48/com.rlabrecque.steamworks.net.dll": {}
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestoreMonarchy.RocketRedist/3.24.4": {
+      "sha512": "BBy1uv+PtYOWr7Pm2aLAySqAzAMkCdCMLVDtzlkwDZ7hdpHaWpk8Dzesye9018ToKVLEhfKMT3fiJBOCLMwGWA==",
+      "type": "package",
+      "path": "restoremonarchy.rocketredist/3.24.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net48/Rocket.API.dll",
+        "lib/net48/Rocket.Core.dll",
+        "lib/net48/Rocket.Unturned.dll",
+        "restoremonarchy.rocketredist.3.24.4.nupkg.sha512",
+        "restoremonarchy.rocketredist.nuspec"
+      ]
+    },
+    "RestoreMonarchy.UnturnedRedist/3.24.4": {
+      "sha512": "Uz+DqNCgh8W1UBTjGtRwuUm4MsOA4xZZvk8AbAzwK+fSdrgYegRY7j1WS0NURbt97fgHK/bAQi84LwfrlfCa2w==",
+      "type": "package",
+      "path": "restoremonarchy.unturnedredist/3.24.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net48/Assembly-CSharp.dll",
+        "lib/net48/Assembly-CSharp.xml",
+        "lib/net48/Newtonsoft.Json.dll",
+        "lib/net48/SDG.NetTransport.dll",
+        "lib/net48/UnityEngine.CoreModule.dll",
+        "lib/net48/UnityEngine.PhysicsModule.dll",
+        "lib/net48/UnityEngine.dll",
+        "lib/net48/UnityEx.dll",
+        "lib/net48/UnturnedDat.dll",
+        "lib/net48/com.rlabrecque.steamworks.net.dll",
+        "restoremonarchy.unturnedredist.3.24.4.nupkg.sha512",
+        "restoremonarchy.unturnedredist.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "RestoreMonarchy.RocketRedist >= 3.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\87329\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj",
+      "projectName": "AutoVehicleClear",
+      "projectPath": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj",
+      "packagesPath": "C:\\Users\\87329\\.nuget\\packages\\",
+      "outputPath": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\87329\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "RestoreMonarchy.RocketRedist": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[3.*, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

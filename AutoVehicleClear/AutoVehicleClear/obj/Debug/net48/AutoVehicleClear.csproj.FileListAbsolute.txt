@@ -1,0 +1,9 @@
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.csproj.AssemblyReference.cache
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.AssemblyInfoInputs.cache
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.AssemblyInfo.cs
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.csproj.CoreCompileInputs.cache
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\bin\Debug\net48\AutoVehicleClear.dll
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\bin\Debug\net48\AutoVehicleClear.pdb
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.dll
+D:\Kaka\AutoVehicleClear\AutoVehicleClear\obj\Debug\net48\AutoVehicleClear.pdb

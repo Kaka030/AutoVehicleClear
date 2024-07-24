@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj": {}
+  },
+  "projects": {
+    "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj",
+        "projectName": "AutoVehicleClear",
+        "projectPath": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\AutoVehicleClear.csproj",
+        "packagesPath": "C:\\Users\\87329\\.nuget\\packages\\",
+        "outputPath": "D:\\Kaka\\AutoVehicleClear\\AutoVehicleClear\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\87329\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "RestoreMonarchy.RocketRedist": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[3.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
